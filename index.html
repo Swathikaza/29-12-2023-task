@@ -1,0 +1,42 @@
+<html>
+<head>
+    <title>changing img colors</title>
+    <link href="https://www.google.com/search?q=robot+images&rlz=1C1CHBD_enIN964IN964&oq=roboto+imag&gs_lcrp=EgZjaHJvbWUqDAgBEAAYChixAxiABDIGCAAQRRg5MgwIARAAGAoYsQMYgAQyCQgCEAAYChiABDIJCAMQABgKGIAEMgkIBBAAGAoYgAQyCQgFEAAYChiABDIJCAYQABgKGIAEMgkIBxAAGAoYgAQyCQgIEAAYChiABDIJCAkQABgKGIAE0gEJMjgxMThqMGo3qAIAsAIA&sourceid=chrome&ie=UTF-8">
+    
+    </head>
+
+<body>
+    
+    
+    <center>
+    
+    <h1>changing images</h1><br><br><br>
+    <div class="box">
+        </div>
+    
+    </center>
+    </body>
+<style>
+    h1{
+    font-family: 'roboto',sans-serif;
+    font-weight: 300;
+    width: 100%;
+    height: 50px;
+    background-color: cyan;
+    }
+    .box{
+    width: 550px;
+    height: 450px;
+    border: ridge 7px green;
+    position: relative;
+    animation:changeimage 5s infinite alternate;
+    }
+    @keyframes changeimage
+    {
+        25%{background-color: gray;top: 0px;}
+        50%{background-color: red;top: 0px;}
+        65%{background-color: gold;top: 0px;}
+        100{background-color: palevioletred;top: 0px;}
+    }
+    </style>
+</html>
